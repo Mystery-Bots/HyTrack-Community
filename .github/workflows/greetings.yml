@@ -1,0 +1,14 @@
+name: Greetings
+
+on: [issues]
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+    - uses: actions/first-interaction@v1
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        issue-message: '# Welcome to the HyTrack Community\nThank you for making your first bug report and we hope you are enjoying the bot.\nPlease make sure that you have included all relevent information to best help us with fixing this bug and someone will be around to respond as soon as possible.'
