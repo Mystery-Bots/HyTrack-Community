@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Mystery Bot Studios Discord
+    url: https://mysterybots.com/discord
+    about: Join the community for more support
+  - name: Feedback or Suggestions
+    url: https://github.com/Mystery-Bots/HyTrack-Community/discussions
+    about: Please post Suggestions & Feedback or Questions here
