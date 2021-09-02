@@ -28,6 +28,16 @@ body:
       render: bash
     validations:
       required: true
+  - type: textarea
+    id: expected-outcome
+    attributes:
+      label: Expected behavior
+      description: "A clear and concise description of what you expected to happen."
+      value: |
+        If you don't know replace this with "NA"
+      render: bash
+    validations:
+      required: true
   - type: input
     id: command
     attributes:
@@ -38,7 +48,7 @@ body:
   - type: checkboxes
     id: terms
     attributes:
-      label: Have you checked if this bug has already been reported
+      label: Have you checked if this bug has already been reported?
       options:
-        - label: I have checked and this bug doesn't exist
+        - label: I have checked and this bug doesn't exist.
           required: true
